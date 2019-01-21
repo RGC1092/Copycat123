@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/bank"
+    android:layout_height="match_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.evoqis.apps.manibhai.Contact_info">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <ImageView
+        android:src="@drawable/manibhai"
+        android:id="@+id/office"
+        android:scaleType="fitXY"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:text="मनिश्रीकृष्ण सहकार संकुल "
+            android:textColor="#000"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+    <TextView
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:text="आश्रम रोड उरुळी कांचन ता.हवेली जि.पुणे"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:text="मोबा.९८६०१९६२६८"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_gravity="center"
+        android:text="फोन:०२०-२६९२७२४८,२६९२८२४८"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:text="Email :drmdpatsanstha@gmail.com"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/contact1"
+                android:scaleType="fitXY"
+                android:src="@drawable/lsvv"
+                android:layout_width="120dp"
+                android:layout_height="150dp"
+                android:layout_marginRight="@dimen/_3sdp"
+                />
+            <TextView
+                android:textColor="@color/textColor"
+                android:layout_gravity="center"
+                android:textSize="18sp"
+                android:text="लक्ष्मण श्रीपती वाल्हेकर"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textColor="@color/textColor"
+                android:textSize="14sp"
+                android:layout_gravity="center"
+                android:text="मुख्य व्यवस्थापक"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="15dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:scaleType="fitXY"
+                android:src="@drawable/snk"
+                android:id="@+id/contact2"
+                android:layout_width="120dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="@dimen/_5sdp"/>
+            <TextView
+                android:textColor="@color/textColor"
+                android:layout_gravity="center"
+                android:textSize="18sp"
+                android:text="संगिता नरेश काळे"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_gravity="center"
+                android:textColor="@color/textColor"
+                android:textSize="16sp"
+                android:text="सहा.मुख्य व्यवस्थापिका"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_gravity="center"
+                android:textColor="@color/textColor"
+                android:textSize="16sp"
+                android:text="(ग्रामीण विभाग)"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center">
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_marginTop="@dimen/_10sdp"
+                android:scaleType="fitXY"
+                android:src="@drawable/arp"
+                android:id="@+id/contact3"
+                android:layout_width="120dp"
+                android:layout_height="150dp"
+                />
+            <TextView
+                android:textColor="@color/textColor"
+                android:layout_gravity="center"
+                android:textSize="18sp"
+                android:text="अजय रामचंद्र पवार"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textColor="@color/textColor"
+                android:textSize="16sp"
+                android:layout_gravity="center"
+                android:text="सहा.मुख्य व्यवस्थापक"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_gravity="center"
+                android:textColor="@color/textColor"
+                android:textSize="18sp"
+                android:text="(शहर विभाग)"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="15dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:scaleType="fitXY"
+                android:src="@drawable/hfb"
+                android:id="@+id/contact4"
+                android:layout_width="120dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="@dimen/_5sdp"/>
+            <TextView
+                android:textColor="@color/textColor"
+                android:layout_gravity="center"
+                android:textSize="18sp"
+                android:text="ऋषीकेश फत्तेसिंग भोसले"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textColor="@color/textColor"
+                android:textSize="16sp"
+                android:layout_gravity="center"
+                android:text="प्रशासकीय अधिकारी"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+</LinearLayout>
+
+</LinearLayout>
+</ScrollView>

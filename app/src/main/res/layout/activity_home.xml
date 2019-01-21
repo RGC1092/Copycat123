@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bank"
+    tools:context=".Home">
+
+    <ImageView
+        android:id="@+id/titlelogo"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:scaleType="fitXY"
+        android:layout_gravity="center"
+        android:src="@drawable/topp" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titlelogo"
+        android:layout_marginTop="20dp">
+
+        <!-- <android.support.v7.widget.CardView
+             android:id="@+id/cone"
+             android:layout_width="@dimen/_90sdp"
+             android:layout_height="@dimen/_100sdp"
+             android:layout_marginStart="@dimen/_10sdp"
+             android:layout_marginLeft="@dimen/_10sdp"
+             app:cardUseCompatPadding="true"
+             android:background="#">-->
+
+        <RelativeLayout
+            android:id="@+id/cone"
+            android:layout_width="@dimen/_90sdp"
+            android:layout_height="@dimen/_100sdp"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
+
+            >
+
+            <ImageView
+                android:id="@+id/img_mandal"
+                android:layout_width="@dimen/_50sdp"
+                android:layout_height="@dimen/_50sdp"
+                android:layout_centerHorizontal="true"
+                android:contentDescription="@string/todo"
+
+                android:src="@drawable/mandal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/img_mandal"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:text="@string/sanchalak_mandal"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/_15sdp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+        <!-- //  </android.support.v7.widget.CardView>
+   -->
+        <!--  <android.support.v7.widget.CardView
+              android:id="@+id/ctwo"
+              android:layout_width="@dimen/_90sdp"
+              android:layout_height="@dimen/_100sdp"
+              android:layout_marginStart="@dimen/_10sdp"
+              android:layout_marginLeft="@dimen/_10sdp"
+              android:layout_toEndOf="@+id/cone"
+              android:layout_toRightOf="@+id/cone"
+              app:cardUseCompatPadding="true">-->
+
+        <RelativeLayout
+            android:id="@+id/ctwo"
+            android:layout_width="@dimen/_90sdp"
+            android:layout_height="@dimen/_100sdp"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_toEndOf="@+id/cone"
+            android:layout_toRightOf="@+id/cone">
+
+            <ImageView
+                android:id="@+id/img_branches"
+                android:layout_width="@dimen/_50sdp"
+                android:layout_height="@dimen/_50sdp"
+                android:layout_centerHorizontal="true"
+                android:contentDescription="@string/todo"
+
+                android:src="@drawable/branches"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/img_branches"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:text="@string/branches"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/_15sdp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+        <!--</android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cthree"
+            android:layout_width="@dimen/_90sdp"
+            android:layout_height="@dimen/_100sdp"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_toEndOf="@+id/ctwo"
+            android:layout_toRightOf="@+id/ctwo"
+            app:cardUseCompatPadding="true">-->
+
+        <RelativeLayout
+            android:id="@+id/cthree"
+            android:layout_width="@dimen/_90sdp"
+            android:layout_height="@dimen/_100sdp"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_toEndOf="@+id/ctwo"
+            android:layout_toRightOf="@+id/ctwo">
+
+            <ImageView
+                android:id="@+id/img_staff"
+                android:layout_width="@dimen/_50sdp"
+                android:layout_height="@dimen/_50sdp"
+                android:layout_centerHorizontal="true"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/bank_staff"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/img_staff"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:text="@string/bank_staff"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/_15sdp"
+
+                android:textStyle="bold" />
+        </RelativeLayout>
+        <!--  </android.support.v7.widget.CardView>
+
+          <android.support.v7.widget.CardView
+              android:id="@+id/cfour"
+              android:layout_width="@dimen/_90sdp"
+              android:layout_height="@dimen/_100sdp"
+              android:layout_below="@+id/cone"
+              android:layout_marginStart="@dimen/_10sdp"
+              android:layout_marginLeft="@dimen/_10sdp"
+              app:cardUseCompatPadding="true">-->
+
+        <RelativeLayout
+            android:id="@+id/cfour"
+            android:layout_width="@dimen/_90sdp"
+            android:layout_height="@dimen/_100sdp"
+            android:layout_below="@+id/cone"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginLeft="@dimen/_10sdp">
+
+            <ImageView
+                android:id="@+id/img_calender"
+                android:layout_width="@dimen/_50sdp"
+                android:layout_height="@dimen/_50sdp"
+                android:layout_centerHorizontal="true"
+                android:contentDescription="@string/todo"
+
+                android:src="@drawable/calender" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/img_calender"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:text="@string/calender"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/_15sdp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+        <!--</android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cfive"
+            android:layout_width="@dimen/_90sdp"
+            android:layout_height="@dimen/_100sdp"
+            android:layout_below="@+id/ctwo"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_toEndOf="@+id/cfour"
+            android:layout_toRightOf="@+id/cfour"
+            app:cardUseCompatPadding="true">-->
+
+        <RelativeLayout
+            android:id="@+id/cfive"
+            android:layout_width="@dimen/_90sdp"
+            android:layout_height="@dimen/_100sdp"
+            android:layout_below="@+id/ctwo"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_toEndOf="@+id/cfour"
+            android:layout_toRightOf="@+id/cfour">
+
+            <ImageView
+                android:id="@+id/img_fd"
+                android:layout_width="@dimen/_50sdp"
+                android:layout_height="@dimen/_50sdp"
+                android:layout_centerHorizontal="true"
+                android:contentDescription="@string/todo"
+
+                android:src="@drawable/fd_rates" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/img_fd"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:text="@string/fd_rates"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/_15sdp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+        <!-- </android.support.v7.widget.CardView>
+
+         <android.support.v7.widget.CardView
+             android:id="@+id/csix"
+             android:layout_width="@dimen/_90sdp"
+             android:layout_height="@dimen/_100sdp"
+             android:layout_below="@+id/cthree"
+             android:layout_marginStart="@dimen/_10sdp"
+             android:layout_marginLeft="@dimen/_10sdp"
+             android:layout_toEndOf="@+id/cfive"
+             android:layout_toRightOf="@+id/cfive"
+             app:cardUseCompatPadding="true">-->
+
+        <RelativeLayout
+            android:id="@+id/csix"
+            android:layout_width="@dimen/_90sdp"
+            android:layout_height="@dimen/_100sdp"
+            android:layout_below="@+id/cthree"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_toEndOf="@+id/cfive"
+            android:layout_toRightOf="@+id/cfive">
+
+            <ImageView
+                android:id="@+id/img_emi_calc"
+                android:layout_width="@dimen/_50sdp"
+                android:layout_height="@dimen/_50sdp"
+                android:layout_centerHorizontal="true"
+                android:contentDescription="@string/todo"
+
+                android:src="@drawable/calculator" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/img_emi_calc"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:text="@string/emi_calc"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/_15sdp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+        <!--</android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cseven"
+            android:layout_width="@dimen/_90sdp"
+            android:layout_height="@dimen/_100sdp"
+            android:layout_below="@+id/cfour"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            app:cardUseCompatPadding="true">-->
+
+        <RelativeLayout
+            android:id="@+id/cseven"
+            android:layout_width="@dimen/_90sdp"
+            android:layout_height="@dimen/_100sdp"
+            android:layout_below="@+id/cfour"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginLeft="@dimen/_10sdp">
+
+            <ImageView
+                android:id="@+id/img_con_info"
+                android:layout_width="@dimen/_50sdp"
+                android:layout_height="@dimen/_50sdp"
+                android:layout_centerHorizontal="true"
+                android:contentDescription="@string/todo"
+
+                android:src="@drawable/branchcontact" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/img_con_info"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:text="@string/contact_info"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/_15sdp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+        <!--   </android.support.v7.widget.CardView>
+
+           <android.support.v7.widget.CardView
+               android:id="@+id/ceight"
+               android:layout_width="@dimen/_90sdp"
+               android:layout_height="@dimen/_100sdp"
+               android:layout_below="@+id/cfive"
+               android:layout_marginStart="@dimen/_10sdp"
+               android:layout_marginLeft="@dimen/_10sdp"
+               android:layout_toEndOf="@+id/cseven"
+               android:layout_toRightOf="@+id/cseven"
+               app:cardUseCompatPadding="true">
+   -->
+        <RelativeLayout
+            android:id="@+id/ceight"
+            android:layout_width="@dimen/_90sdp"
+            android:layout_height="@dimen/_100sdp"
+            android:layout_below="@+id/cfive"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_toEndOf="@+id/cseven"
+            android:layout_toRightOf="@+id/cseven">
+
+            <ImageView
+                android:id="@+id/img_con_person"
+                android:layout_width="@dimen/_50sdp"
+                android:layout_height="@dimen/_50sdp"
+                android:layout_centerHorizontal="true"
+                android:contentDescription="@string/todo"
+
+                android:src="@drawable/form" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/img_con_person"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:text="@string/contact_persons"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/_15sdp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+        <!-- </android.support.v7.widget.CardView>
+
+         <android.support.v7.widget.CardView
+             android:id="@+id/cnine"
+             android:layout_width="@dimen/_90sdp"
+             android:layout_height="@dimen/_100sdp"
+             android:layout_below="@+id/csix"
+             android:layout_marginStart="@dimen/_10sdp"
+             android:layout_marginLeft="@dimen/_10sdp"
+             android:layout_toEndOf="@+id/ceight"
+             android:layout_toRightOf="@+id/ceight"
+             app:cardUseCompatPadding="true">-->
+
+        <RelativeLayout
+            android:id="@+id/cnine"
+            android:layout_width="@dimen/_90sdp"
+            android:layout_height="@dimen/_100sdp"
+            android:layout_below="@+id/csix"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_toEndOf="@+id/ceight"
+            android:layout_toRightOf="@+id/ceight">
+
+            <ImageView
+                android:id="@+id/img_locations"
+                android:layout_width="@dimen/_50sdp"
+                android:layout_height="@dimen/_50sdp"
+                android:layout_centerHorizontal="true"
+                android:contentDescription="@string/todo"
+
+                android:src="@drawable/locations" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/img_locations"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:text="@string/locations"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/_15sdp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+        <!--  </android.support.v7.widget.CardView>
+  -->
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <!-- <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="@string/developed_and_sponsored_by"
+             android:textColor="#000"
+             android:gravity="center"
+             android:textSize="@dimen/_10sdp" />-->
+
+        <TextView
+            android:id="@+id/txt_link"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:clickable="true"
+            android:focusable="true"
+            android:text="@string/evoqis_solutions_pvt_ltd"
+            android:textColor="#091fe5"
+            android:gravity="center"
+            android:textSize="@dimen/_13sdp" />
+    </LinearLayout>
+
+
+</RelativeLayout>

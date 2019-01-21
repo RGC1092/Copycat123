@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bank"
+    android:orientation="vertical"
+    tools:context="com.evoqis.apps.manibhai.Bank_Staff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:weightSum="2">
+
+        <TextView
+            android:id="@+id/txt1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:layout_marginRight="1dp"
+            android:background="@drawable/borderradius"
+            android:text="* वैशिष्ट्ये *"
+            android:textColor="#bc0303"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:layout_marginLeft="1dp"
+            android:background="@drawable/borderradius"
+            android:text="* सुविधा *"
+            android:textColor="#bc0303"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <View
+            android:id="@+id/v1"
+            android:layout_width="0dp"
+            android:layout_height="4dp"
+            android:layout_weight="1"
+            android:visibility="visible"
+            android:background="@color/colorPrimary"
+            android:layout_marginRight="4dp" />
+
+        <View
+            android:id="@+id/v2"
+            android:layout_width="0dp"
+            android:layout_height="4dp"
+            android:visibility="gone"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:layout_marginLeft="@dimen/_4sdp" />
+
+
+    </LinearLayout>
+
+    <ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtvst"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_margin="@dimen/_10sdp"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:visibility="visible"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/txtsuv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_margin="@dimen/_10sdp"
+            android:textColor="#000"
+            android:visibility="gone"
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+
+
+    </LinearLayout>
+
+</ScrollView>
+</LinearLayout>
+

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/bank"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <android.support.v7.widget.CardView
+            android:layout_weight="1"
+            app:cardUseCompatPadding="true"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:src="@drawable/a1"
+                    android:scaleType="fitXY"
+                    android:layout_width="wrap_content"
+                    android:layout_height="250dp" />
+                <!--<TextView-->
+                    <!--android:textColor="@color/textColor"-->
+                    <!--android:gravity="center"-->
+                    <!--android:textSize="25sp"-->
+                    <!--android:text="मा. रमेश आप्पा थोरात (अध्यक्ष पी डी सी सी बँक) यांच्या समवेत"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content" />-->
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_weight="1"
+            app:cardUseCompatPadding="true"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp">
+
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:src="@drawable/a2"
+                    android:scaleType="fitXY"
+                    android:layout_width="wrap_content"
+                    android:layout_height="250dp" />
+                <!--<TextView-->
+                    <!--android:textColor="@color/textColor"-->
+                    <!--android:gravity="center"-->
+                    <!--android:textSize="25sp"-->
+                    <!--android:text="मा.महसूल मंत्री बाळासाहेब थोरात यांच्या समवेत"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content" />-->
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            app:cardUseCompatPadding="true"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp">
+
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:src="@drawable/a3"
+                    android:scaleType="fitXY"
+                    android:layout_width="wrap_content"
+                    android:layout_height="250dp" />
+                <!--<TextView
+                    android:textColor="@color/textColor"
+                    android:gravity="center"
+                    android:textSize="25sp"
+                    android:text="मा.ना. जयंत पाटील यांच्या समवेत"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />-->
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_weight="1"
+            app:cardUseCompatPadding="true"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp">
+
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:src="@drawable/a4"
+                    android:scaleType="fitXY"
+                    android:layout_width="wrap_content"
+                    android:layout_height="250dp" />
+                <!--<TextView
+                    android:textColor="@color/textColor"
+                    android:gravity="center"
+                    android:textSize="25sp"
+                    android:text="मा.अर्थमंत्री बाळासाहेब विखे पाटील यांच्या समवेत"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />-->
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_weight="1"
+            app:cardUseCompatPadding="true"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp">
+
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:src="@drawable/a5"
+                    android:scaleType="fitXY"
+                    android:layout_width="wrap_content"
+                    android:layout_height="250dp" />
+               <!-- <TextView
+                    android:textColor="@color/textColor"
+                    android:gravity="center"
+                    android:textSize="25sp"
+                    android:text="मा.सहकार आयुक्त उमेशचंद्र सरंगी यांच्या समवेत"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />-->
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+
+</ScrollView>

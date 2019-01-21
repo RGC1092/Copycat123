@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/bank"
+    android:layout_height="match_parent"
+    tools:context="com.evoqis.apps.manibhai.FDRates">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <ImageView
+            android:scaleType="fitXY"
+            android:id="@+id/fdrates"
+            android:src="@drawable/two"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:scaleType="fitXY"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:scaleType="fitXY"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/three"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:scaleType="fitXY"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/four"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:src="@drawable/five"
+            android:scaleType="fitXY"
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:layout_marginTop="15dp"
+            android:src="@drawable/six"
+            android:scaleType="fitXY"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:src="@drawable/seven"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:scaleType="fitXY"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:layout_gravity="center"
+            android:src="@drawable/eight"
+            android:scaleType="fitXY"
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:src="@drawable/nine"
+            android:scaleType="fitXY"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:scaleType="fitXY"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/ten"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+</ScrollView>

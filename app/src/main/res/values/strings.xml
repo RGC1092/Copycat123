@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">डॉ.मनिभाई पतसंस्था</string>
+    <string name="sanchalak_mandal">संचालक मंडळ</string>
+    <string name="branches">शाखा </string>
+    <string name="bank_staff">वैशिष्ट्ये आणि सुविधा</string>
+    <string name="calender">दिनदर्शिका </string>
+    <string name="fd_rates">मुदत ठेव दर </string>
+    <string name="emi_calc">हफ्ते कॅलक्युलेटर </string>
+    <string name="contact_info">कार्यालय संपर्क </string>
+    <string name="contact_persons">चौकशी फॉर्म </string>
+    <string name="locations">इतर</string>
+    <string name="homescreen">डॉ.मणिभाई देसाई पतसंस्था पुणे </string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="developed_and_sponsored_by">Developed And Sponsored By</string>
+    <string name="evoqis_solutions_pvt_ltd">Evoqis Solutions Pvt Ltd</string>
+    <string name="todo">TODO</string>
+
+</resources>
